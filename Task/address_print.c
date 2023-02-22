@@ -6,4 +6,5 @@ void main()
     printf("Taluka: Jam Kandorana \n");
     printf("District: Rajkot \n");
     printf("Gujrat-360405");
+    return 0;
 }
