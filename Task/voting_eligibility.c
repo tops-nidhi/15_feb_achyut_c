@@ -4,7 +4,7 @@
 int main() 
 {
     int age;
-    printf("Enter your age : ");
+    printf("Enter your birth year : ");
     scanf("%d",&age);
     age = 2023 - age;
     
