@@ -1,0 +1,17 @@
+C and C++ are two of the most popular programming languages used for system programming and application development.
+
+•  C was developed in the 1970s by Dennis Ritchie at Bell Labs as a general-purpose, imperative language. It is a mid-
+level programming language, meaning that it provides direct access to the computer's hardware, and its syntax is
+relatively simple and compact. C is often used for operating systems, embedded systems, and other performance-
+critical applications where low-level hardware access and performance are critical.
+
+•  C++ is an extension of C that was developed in the 1980s by Bjarne Stroustrup. It is an object-oriented
+programming language, which means it is designed to work with classes and objects. C++ has many features that
+C does not have, including classes, templates, and inheritance, making it a more versatile language for software
+development. C++ is used for a wide range of applications, including operating systems, games, scientific
+simulations, and high-performance software.
+
+Both C and C++ are widely used because they provide low-level access to computer hardware, which makes them
+useful for developing operating systems and other software that require direct hardware control. Additionally, they
+are relatively fast, efficient, and portable across different platforms. However, they require more effort and
+expertise to learn and use than higher-level languages like Python or Java.
