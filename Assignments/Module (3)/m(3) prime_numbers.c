@@ -10,7 +10,7 @@ int main()
         printf("Given number is prime number");
     }
     
-    else if (num%2==0 || num%3==0 || num%4==0 || num%5==0 || num%7==0){
+    else if (num%2==0 || num%3==0 || num%5==0 || num%7==0){
         printf("Given number is not prime number");
     }
     
