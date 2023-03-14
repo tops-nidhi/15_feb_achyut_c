@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int manu;
+    int menu;
     printf("Welcome to the *** BCA CHAI WAALE ***\n");
     printf("\n// choose item type by entering number //\n");
     printf("\n1. Tea\n2. Coffee\n");
     printf("\nEnter the item you want : ");
-    scanf("%d",&manu);
+    scanf("%d",&menu);
     
-    switch (manu){
+    switch (menu){
     case 1:
         int tea;
         printf("\nWelcome to the Tea World\n");
