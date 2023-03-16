@@ -11,8 +11,8 @@ int main()
     printf("Enter the number c : ");
     scanf("%d" ,&c);
 
-    (a > b && a > c) ? (printf("\n a is max")) : ;
-    (b > a && b > c) ? (printf("\n b is max")) : ;
-    (c > a && c > b) ? (printf("\n c is max")) : ;
+    (a > b && a > c) ? (printf("\nvalue of a = %d is max",a)) : (0);
+    (b > a && b > c) ? (printf("\nvalue of b = %d is max",b)) : (0);
+    (c > a && c > b) ? (printf("\nvalue of c = %d is max",c)) : (0);
     return 0;
 }
