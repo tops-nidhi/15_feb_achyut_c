@@ -1,37 +1,43 @@
 #include<stdio.h>
+
 int main(){
-    int a,b,action,ans;
+    int a,b,ans;
+    char ch;
     printf("// enter arithmatic action which you want to perform //\n");
-    printf("\t1. + (addition)\n\t2. - (substraction)\n\t3. * (multiplication)\n\t4. / (division)\n\t5. (modulo)\n");
+    
+    printf("\t1. + (addition)\n\t2. - (substraction)\n\t3. * (multiplication)\n\t4. / (division)\n\t5. \% (modulo)\n");
+    
     printf("\nenter first value : ");
     scanf("%d",&a);
+    
     printf("enter action which you want to perform : ");
-    scanf("%d",&action);
+    scanf("\n%c",&ch);
+    
     printf("enter second value : ");
     scanf("%d",&b);
 
-    switch (action){
-    case 1:
+    switch (ch){
+    case '+':
     ans = a + b;
     printf("\naddition of %d and %d is : %d",a,b,ans);
     break;
 
-    case 2:
+    case '-':
     ans = a - b;
     printf("\nsubstraction of %d and %d is : %d",a,b,ans);
     break;
 
-    case 3:
+    case '*':
     ans = a * b;
     printf("\nmultiplication of %d and %d is : %d",a,b,ans);
     break;
 
-    case 4:
+    case '/':
     ans = a / b;
     printf("\ndivision of %d and %d is : %d",a,b,ans);
     break;
 
-    case 5:
+    case '%':
     ans = a % b;
     printf("\nmodulo of %d and %d is : %d",a,b,ans);
     break;
