@@ -1,6 +1,4 @@
-// WAP to user enter the 5 subjects mark. You have to make a total and 
-
-find the percentage
+// WAP to user enter the 5 subjects mark. You have to make a total and find the percentage
 
 #include <stdio.h>
 
